@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS orders(
  Purch_amt REAL,
  Ord_date TEXT,
  Customer_id TEXT,
- Salesman_id TEXT;
+ Salesman_id TEXT);
 
 INSERT INTO orders( Ord_no, Purch_amt,  Ord_date,  Customer_id, Salesman_id) VALUES
  ('70001', 150.5, '05-11-2012', '3405', '5402'),
